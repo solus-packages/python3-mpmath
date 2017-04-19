@@ -1,0 +1,210 @@
+<PISI>
+    <Source>
+        <Name>python3-mpmath</Name>
+        <Packager>
+            <Name>Bryan T. Meyers</Name>
+            <Email>bmeyers@datadrake.com</Email>
+        </Packager>
+        <License>BSD-3-Clause</License>
+        <PartOf>programming.python</PartOf>
+        <Summary xml:lang="en">Python library for arbitrary-precision floating-point arithmetic</Summary>
+        <Description xml:lang="en">Python library for arbitrary-precision floating-point arithmetic
+</Description>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://solus-project.com/sources/README.Solus</Archive>
+    </Source>
+    <Package>
+        <Name>python3-mpmath</Name>
+        <Summary xml:lang="en">Python library for arbitrary-precision floating-point arithmetic</Summary>
+        <Description xml:lang="en">Python library for arbitrary-precision floating-point arithmetic
+</Description>
+        <PartOf>programming.python</PartOf>
+        <Files>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/mpmath-0.19-py3.5.egg-info</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/mpmath/__init__.py</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/mpmath/__pycache__/__init__.cpython-35.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/mpmath/__pycache__/conftest.cpython-35.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/mpmath/__pycache__/ctx_base.cpython-35.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/mpmath/__pycache__/ctx_fp.cpython-35.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/mpmath/__pycache__/ctx_iv.cpython-35.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/mpmath/__pycache__/ctx_mp.cpython-35.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/mpmath/__pycache__/ctx_mp_python.cpython-35.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/mpmath/__pycache__/function_docs.cpython-35.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/mpmath/__pycache__/identification.cpython-35.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/mpmath/__pycache__/math2.cpython-35.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/mpmath/__pycache__/rational.cpython-35.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/mpmath/__pycache__/usertools.cpython-35.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/mpmath/__pycache__/visualization.cpython-35.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/mpmath/calculus/__init__.py</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/mpmath/calculus/__pycache__/__init__.cpython-35.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/mpmath/calculus/__pycache__/approximation.cpython-35.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/mpmath/calculus/__pycache__/calculus.cpython-35.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/mpmath/calculus/__pycache__/differentiation.cpython-35.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/mpmath/calculus/__pycache__/extrapolation.cpython-35.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/mpmath/calculus/__pycache__/odes.cpython-35.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/mpmath/calculus/__pycache__/optimization.cpython-35.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/mpmath/calculus/__pycache__/polynomials.cpython-35.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/mpmath/calculus/__pycache__/quadrature.cpython-35.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/mpmath/calculus/approximation.py</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/mpmath/calculus/calculus.py</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/mpmath/calculus/differentiation.py</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/mpmath/calculus/extrapolation.py</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/mpmath/calculus/odes.py</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/mpmath/calculus/optimization.py</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/mpmath/calculus/polynomials.py</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/mpmath/calculus/quadrature.py</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/mpmath/conftest.py</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/mpmath/ctx_base.py</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/mpmath/ctx_fp.py</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/mpmath/ctx_iv.py</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/mpmath/ctx_mp.py</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/mpmath/ctx_mp_python.py</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/mpmath/function_docs.py</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/mpmath/functions/__init__.py</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/mpmath/functions/__pycache__/__init__.cpython-35.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/mpmath/functions/__pycache__/bessel.cpython-35.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/mpmath/functions/__pycache__/elliptic.cpython-35.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/mpmath/functions/__pycache__/expintegrals.cpython-35.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/mpmath/functions/__pycache__/factorials.cpython-35.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/mpmath/functions/__pycache__/functions.cpython-35.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/mpmath/functions/__pycache__/hypergeometric.cpython-35.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/mpmath/functions/__pycache__/orthogonal.cpython-35.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/mpmath/functions/__pycache__/qfunctions.cpython-35.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/mpmath/functions/__pycache__/rszeta.cpython-35.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/mpmath/functions/__pycache__/theta.cpython-35.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/mpmath/functions/__pycache__/zeta.cpython-35.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/mpmath/functions/__pycache__/zetazeros.cpython-35.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/mpmath/functions/bessel.py</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/mpmath/functions/elliptic.py</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/mpmath/functions/expintegrals.py</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/mpmath/functions/factorials.py</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/mpmath/functions/functions.py</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/mpmath/functions/hypergeometric.py</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/mpmath/functions/orthogonal.py</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/mpmath/functions/qfunctions.py</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/mpmath/functions/rszeta.py</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/mpmath/functions/theta.py</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/mpmath/functions/zeta.py</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/mpmath/functions/zetazeros.py</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/mpmath/identification.py</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/mpmath/libmp/__init__.py</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/mpmath/libmp/__pycache__/__init__.cpython-35.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/mpmath/libmp/__pycache__/backend.cpython-35.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/mpmath/libmp/__pycache__/gammazeta.cpython-35.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/mpmath/libmp/__pycache__/libelefun.cpython-35.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/mpmath/libmp/__pycache__/libhyper.cpython-35.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/mpmath/libmp/__pycache__/libintmath.cpython-35.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/mpmath/libmp/__pycache__/libmpc.cpython-35.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/mpmath/libmp/__pycache__/libmpf.cpython-35.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/mpmath/libmp/__pycache__/libmpi.cpython-35.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/mpmath/libmp/__pycache__/six.cpython-35.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/mpmath/libmp/backend.py</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/mpmath/libmp/gammazeta.py</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/mpmath/libmp/libelefun.py</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/mpmath/libmp/libhyper.py</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/mpmath/libmp/libintmath.py</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/mpmath/libmp/libmpc.py</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/mpmath/libmp/libmpf.py</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/mpmath/libmp/libmpi.py</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/mpmath/libmp/six.py</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/mpmath/math2.py</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/mpmath/matrices/__init__.py</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/mpmath/matrices/__pycache__/__init__.cpython-35.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/mpmath/matrices/__pycache__/calculus.cpython-35.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/mpmath/matrices/__pycache__/eigen.cpython-35.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/mpmath/matrices/__pycache__/eigen_symmetric.cpython-35.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/mpmath/matrices/__pycache__/linalg.cpython-35.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/mpmath/matrices/__pycache__/matrices.cpython-35.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/mpmath/matrices/calculus.py</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/mpmath/matrices/eigen.py</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/mpmath/matrices/eigen_symmetric.py</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/mpmath/matrices/linalg.py</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/mpmath/matrices/matrices.py</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/mpmath/rational.py</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/mpmath/tests/__init__.py</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/mpmath/tests/__pycache__/__init__.cpython-35.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/mpmath/tests/__pycache__/extratest_bessel.cpython-35.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/mpmath/tests/__pycache__/extratest_gamma.cpython-35.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/mpmath/tests/__pycache__/extratest_zeta.cpython-35.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/mpmath/tests/__pycache__/runtests.cpython-35.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/mpmath/tests/__pycache__/test_basic_ops.cpython-35.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/mpmath/tests/__pycache__/test_bitwise.cpython-35.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/mpmath/tests/__pycache__/test_calculus.cpython-35.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/mpmath/tests/__pycache__/test_compatibility.cpython-35.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/mpmath/tests/__pycache__/test_convert.cpython-35.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/mpmath/tests/__pycache__/test_diff.cpython-35.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/mpmath/tests/__pycache__/test_division.cpython-35.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/mpmath/tests/__pycache__/test_eigen.cpython-35.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/mpmath/tests/__pycache__/test_eigen_symmetric.cpython-35.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/mpmath/tests/__pycache__/test_elliptic.cpython-35.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/mpmath/tests/__pycache__/test_fp.cpython-35.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/mpmath/tests/__pycache__/test_functions.cpython-35.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/mpmath/tests/__pycache__/test_functions2.cpython-35.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/mpmath/tests/__pycache__/test_gammazeta.cpython-35.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/mpmath/tests/__pycache__/test_hp.cpython-35.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/mpmath/tests/__pycache__/test_identify.cpython-35.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/mpmath/tests/__pycache__/test_interval.cpython-35.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/mpmath/tests/__pycache__/test_levin.cpython-35.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/mpmath/tests/__pycache__/test_linalg.cpython-35.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/mpmath/tests/__pycache__/test_matrices.cpython-35.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/mpmath/tests/__pycache__/test_mpmath.cpython-35.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/mpmath/tests/__pycache__/test_ode.cpython-35.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/mpmath/tests/__pycache__/test_pickle.cpython-35.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/mpmath/tests/__pycache__/test_power.cpython-35.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/mpmath/tests/__pycache__/test_quad.cpython-35.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/mpmath/tests/__pycache__/test_rootfinding.cpython-35.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/mpmath/tests/__pycache__/test_special.cpython-35.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/mpmath/tests/__pycache__/test_str.cpython-35.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/mpmath/tests/__pycache__/test_summation.cpython-35.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/mpmath/tests/__pycache__/test_trig.cpython-35.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/mpmath/tests/__pycache__/test_visualization.cpython-35.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/mpmath/tests/__pycache__/torture.cpython-35.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/mpmath/tests/extratest_bessel.py</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/mpmath/tests/extratest_gamma.py</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/mpmath/tests/extratest_zeta.py</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/mpmath/tests/runtests.py</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/mpmath/tests/test_basic_ops.py</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/mpmath/tests/test_bitwise.py</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/mpmath/tests/test_calculus.py</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/mpmath/tests/test_compatibility.py</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/mpmath/tests/test_convert.py</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/mpmath/tests/test_diff.py</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/mpmath/tests/test_division.py</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/mpmath/tests/test_eigen.py</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/mpmath/tests/test_eigen_symmetric.py</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/mpmath/tests/test_elliptic.py</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/mpmath/tests/test_fp.py</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/mpmath/tests/test_functions.py</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/mpmath/tests/test_functions2.py</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/mpmath/tests/test_gammazeta.py</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/mpmath/tests/test_hp.py</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/mpmath/tests/test_identify.py</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/mpmath/tests/test_interval.py</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/mpmath/tests/test_levin.py</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/mpmath/tests/test_linalg.py</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/mpmath/tests/test_matrices.py</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/mpmath/tests/test_mpmath.py</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/mpmath/tests/test_ode.py</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/mpmath/tests/test_pickle.py</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/mpmath/tests/test_power.py</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/mpmath/tests/test_quad.py</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/mpmath/tests/test_rootfinding.py</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/mpmath/tests/test_special.py</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/mpmath/tests/test_str.py</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/mpmath/tests/test_summation.py</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/mpmath/tests/test_trig.py</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/mpmath/tests/test_visualization.py</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/mpmath/tests/torture.py</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/mpmath/usertools.py</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/mpmath/visualization.py</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="1">
+            <Date>2017-04-19</Date>
+            <Version>0.19</Version>
+            <Comment>Packaging update</Comment>
+            <Name>Bryan T. Meyers</Name>
+            <Email>bmeyers@datadrake.com</Email>
+        </Update>
+    </History>
+</PISI>
