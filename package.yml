@@ -1,6 +1,6 @@
 name       : python3-mpmath
 version    : 0.19
-release    : 1
+release    : 2
 source     :
     - https://pypi.python.org/packages/74/39/08b1b5c9848b498f922c7c92d31bb6edf00fe5a3bd87b04ebe1cc1d63948/mpmath-0.19.tar.gz : 68ddf6426dcda445323467d89892d2cffbbd1ae0b31ac1241b1b671749d63222
 license    : BSD-3-Clause
@@ -9,8 +9,8 @@ summary    : Python library for arbitrary-precision floating-point arithmetic
 description: |
     Python library for arbitrary-precision floating-point arithmetic
 builddeps  :
-    - pkgconfig(python-3.5)
+    - pkgconfig(python3)
 build      : |
-    %python3_setup    
+    %python3_setup
 install    : |
     %python3_install
